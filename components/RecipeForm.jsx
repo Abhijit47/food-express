@@ -13,7 +13,7 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: Ginger bread"}
         errors={errors}
-        defaultvalue={"recipe 1"}
+        // defaultvalue={"recipe 1"}
       />
 
       <FormInput
@@ -26,9 +26,9 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: https://www.example.com"}
         errors={errors}
-        defaultvalue={
-          "https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
-        }
+        // defaultvalue={
+        //   "https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
+        // }
       />
 
       <FormInput
@@ -41,9 +41,9 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: https://www.example.com"}
         errors={errors}
-        defaultvalue={
-          "https://www.allrecipes.com/thmb/2ZOl-_08_4_0205-500x500.jpg"
-        }
+        // defaultvalue={
+        //   "https://www.allrecipes.com/thmb/2ZOl-_08_4_0205-500x500.jpg"
+        // }
       />
 
       <FormInput
@@ -56,7 +56,7 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: Allrecipes"}
         errors={errors}
-        defaultvalue={"Allrecipes"}
+        // defaultvalue={"Allrecipes"}
       />
 
       <FormInput
@@ -69,7 +69,7 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: 75"}
         errors={errors}
-        defaultvalue={75}
+        // defaultvalue={75}
       />
 
       <FormInput
@@ -82,7 +82,7 @@ export default function RecipeForm({ register, errors }) {
         register={register}
         required={"Ex: 4"}
         errors={errors}
-        defaultvalue={6}
+        // defaultvalue={6}
       />
     </div>
   );

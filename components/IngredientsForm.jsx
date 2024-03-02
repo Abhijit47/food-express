@@ -12,7 +12,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={"Ex. 0.5,cup,rice"}
         errors={errors}
-        defaultvalue={"0.5, cup, rice"}
+        // defaultvalue={"0.5, cup, rice"}
       />
       <FormInput
         labelName={"Ingredients 2"}
@@ -23,7 +23,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={"Ex. 0.5,cup,rice"}
         errors={errors}
-        defaultvalue={"0.5, tbsn, salt"}
+        // defaultvalue={"0.5, tbsn, salt"}
       />
       <FormInput
         labelName={"Ingredients 3"}
@@ -34,7 +34,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={"Ex. 0.5,cup,rice"}
         errors={errors}
-        defaultvalue={"1.2, ltr, water"}
+        // defaultvalue={"1.2, ltr, water"}
       />
       <FormInput
         labelName={"Ingredients 4"}
@@ -45,7 +45,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={"Ex. 0.5,cup,rice"}
         errors={errors}
-        defaultvalue={"1, pcs, lemon"}
+        // defaultvalue={"1, pcs, lemon"}
       />
       <FormInput
         labelName={"Ingredients 5"}
@@ -56,7 +56,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={false}
         errors={errors}
-        defaultvalue={""}
+        // defaultvalue={""}
       />
       <FormInput
         labelName={"Ingredients 6"}
@@ -67,7 +67,7 @@ export default function IngredientsForm({ register, errors }) {
         register={register}
         required={false}
         errors={errors}
-        defaultvalue={""}
+        // defaultvalue={""}
       />
     </div>
   );

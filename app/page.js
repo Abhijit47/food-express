@@ -29,9 +29,8 @@ export default async function Home() {
 
       <Featured />
 
-      {/* <Suspense fallback={<div>Loading...</div>}> */}
       <RecipeCards />
-      {/* </Suspense> */}
+
       {/* <PriceCard /> */}
       <Testimonials />
       <CTA />
