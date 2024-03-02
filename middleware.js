@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export default authMiddleware({
   // Routes that can be accessed while signed out
-  publicRoutes: ["/", "/sign-up", "/sign-in", "/api/recipes"],
+  publicRoutes: ["/", "/sign-up", "/sign-in"],
   // Routes that can always be accessed, and have
   // no authentication information
   ignoredRoutes: ["/sign-up", "/sign-in"],
