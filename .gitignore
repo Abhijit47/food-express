@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# other-files
+/app/api/create-all
+/app/api/create-items
+/app/api/create-recipes
+/lib/data.js

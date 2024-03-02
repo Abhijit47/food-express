@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -29,5 +29,17 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+} */
+
+@layer components {
+  .btn {
+    @apply rounded-full bg-gradient-to-br text-center from-[#fbdb89] to-[#f38e82] py-2 px-5 md:px-6 lg:px-8 lg:py-2 text-base md:text-base lg:text-lg font-medium uppercase text-white shadow-lg transition-all delay-75 duration-500 hover:-translate-y-2 hover:shadow focus:outline-none
+  }
+}
+
+@layer components {
+  .bookmark-btn {
+    @apply rounded-full bg-gradient-to-br text-center from-[#fbdb89] to-[#f38e82] p-2 text-base text-white shadow-lg transition-all delay-100 duration-500 hover:scale-105 hover:shadow
   }
 }
