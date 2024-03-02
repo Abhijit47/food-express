@@ -8,7 +8,7 @@ import RecipeCover from "./RecipeCover";
 export default async function RecipeCards() {
   const response = await getRecipes();
   const data = await JSON.parse(response);
-  const recipes = data?.toReversed().slice(0, 9);
+  const recipes = data.reverse().slice(0, 9);
 
   return (
     <div className="px-4 py-12 sm:px-6 lg:px-8 lg:py-16">

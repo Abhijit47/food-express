@@ -12,26 +12,26 @@ import Map from "@/components/Map";
 import { Suspense } from "react";
 
 export default async function Home() {
-  // try {
-  const user = await currentUser();
+  try {
+    const user = await currentUser();
 
-  if (user) {
-    await updateUser(user);
-  } else {
-    redirect("/sign-in");
+    if (user) {
+      await updateUser(user);
+    } else {
+      redirect("/sign-in");
+    }
+  } catch (err) {
+    console.error(err);
   }
-  // } catch (err) {
-  //   console.error(err);
-  // }
   return (
     <section>
       <HeroCard />
 
       <Featured />
 
-      <Suspense fallback={<div>Loading...</div>}>
-        <RecipeCards />
-      </Suspense>
+      {/* <Suspense fallback={<div>Loading...</div>}> */}
+      <RecipeCards />
+      {/* </Suspense> */}
       {/* <PriceCard /> */}
       <Testimonials />
       <CTA />
